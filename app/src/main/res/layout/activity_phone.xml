@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="归属地查询"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_et"
+        android:layout_margin="10dp"
+        android:hint="请输入手机号码"/>
+
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:background="@drawable/bg_btn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="归属地"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="区号"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="运营商"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户类型"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
